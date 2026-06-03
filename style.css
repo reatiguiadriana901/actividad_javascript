@@ -1,0 +1,80 @@
+Estilos · CSS
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8f0;
+    padding: 20px;
+}
+ 
+h1 {
+    color: #e67e22;
+}
+ 
+button {
+    margin: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    border: 2px solid #e67e22;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 14px;
+}
+ 
+button:hover {
+    background-color: #e67e22;
+    color: white;
+}
+ 
+#btnMostrar {
+    background-color: #e67e22;
+    color: white;
+    font-size: 16px;
+    padding: 10px 24px;
+}
+ 
+#contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+}
+ 
+
+.tarjeta {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    width: 200px;
+}
+ 
+.tarjeta img {
+    width: 100%;
+    border-radius: 8px;
+}
+ 
+.tarjeta h3 {
+    margin: 10px 0 5px;
+}
+ 
+
+.facil    { color: green;  font-weight: bold; }
+.media    { color: orange; font-weight: bold; }
+.dificil  { color: red;    font-weight: bold; }
+
+.destacado {
+    border: 3px solid #e67e22;
+    background-color: #fff3e0;
+}
+ 
+
+#estado { color: gray; font-style: italic; }
+
+#log {
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    background-color: #222;
+    color: #0f0;
+    font-family: monospace;
+    padding: 8px 15px;
+    font-size: 14px;
+}
